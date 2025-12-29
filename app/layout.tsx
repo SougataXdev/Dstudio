@@ -26,6 +26,9 @@ const ppFragment = localFont({
 export const metadata: Metadata = {
   title: "Dstudio by sougataXdev",
   description: "Dstudio clone for practice",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
