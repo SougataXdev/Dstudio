@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  font-family: var(--font-graphik), system-ui, sans-serif;
+}
+
+@layer utilities {
+  .font-ppfragment {
+    font-family: var(--font-pp-fragment), var(--font-graphik), system-ui, sans-serif;
+  }
+}
