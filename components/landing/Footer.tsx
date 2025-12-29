@@ -94,8 +94,6 @@ const Footer = (props: Props) => {
         </RevealItem>
 
         <RevealItem delay={0.35}>
-                  <p className="text-center mt-4 text-neutral-400">Made with love ❤️ by - SougataXdev</p>
-
           <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 mt-10 md:mt-14 text-xs md:text-sm px-1 pb-6">
             <div className="flex gap-4 md:gap-6">
               <p>About Us</p>
