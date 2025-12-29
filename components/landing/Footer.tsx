@@ -16,7 +16,9 @@ const Footer = (props: Props) => {
             </h3>
           </RevealItem>
           <RevealItem delay={0.15}>
-            <h2 className="mt-6 md:mt-10 text-3xl md:text-5xl font-semibold">Write us on</h2>
+            <h2 className="mt-6 md:mt-10 text-3xl md:text-5xl font-semibold">
+              Write us on
+            </h2>
           </RevealItem>
           <RevealItem delay={0.2}>
             <h3 className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold tracking-tighter mt-3 break-all sm:break-normal">
@@ -53,7 +55,13 @@ const Footer = (props: Props) => {
         <RevealItem delay={0.3}>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-6 pt-10 md:pt-16">
             <div>
-              <Image height={100} width={120} alt="logo" src="/logo-white.svg" className="w-24 md:w-[120px]" />
+              <Image
+                height={100}
+                width={120}
+                alt="logo"
+                src="/logo-white.svg"
+                className="w-24 md:w-[120px]"
+              />
               <h1 className="text-2xl md:text-3xl font-bold mt-4">5.0</h1>
               <p className="mt-3 text-sm md:text-base">Rated on Clutch</p>
             </div>
@@ -62,7 +70,9 @@ const Footer = (props: Props) => {
               <h2 className="font-semibold">India</h2>
               <h3 className="text-sm md:text-base">100% Remote Team</h3>
               <div className="flex flex-col gap-2 md:gap-3 mt-2 md:mt-4">
-                <h2 className="font-semibold text-lg md:text-xl">United States</h2>
+                <h2 className="font-semibold text-lg md:text-xl">
+                  United States
+                </h2>
                 <p className="text-sm md:text-base max-w-sm">
                   585 West 500 south, Suite 130 Bountiful, Salt Lake City, Utah
                   84010
@@ -84,6 +94,8 @@ const Footer = (props: Props) => {
         </RevealItem>
 
         <RevealItem delay={0.35}>
+                  <p className="text-center mt-4 text-neutral-400">Made with love ❤️ by - SougataXdev</p>
+
           <div className="w-full flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0 mt-10 md:mt-14 text-xs md:text-sm px-1 pb-6">
             <div className="flex gap-4 md:gap-6">
               <p>About Us</p>
@@ -91,7 +103,9 @@ const Footer = (props: Props) => {
               <p>Contact</p>
             </div>
             <p className="text-center">powered by - Design Pixelone Pvt. Ltd</p>
-            <p className="text-center">© 2025 Dstudio Agency - All rights Reserved</p>
+            <p className="text-center">
+              © 2025 Dstudio Agency - All rights Reserved
+            </p>
           </div>
         </RevealItem>
       </div>

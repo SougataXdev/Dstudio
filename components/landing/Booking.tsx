@@ -34,9 +34,9 @@ const Booking = (props: Props) => {
             <RevealItem delay={0.25}>
               <div className="max-w-sm tracking-tight text-base md:text-lg text-[#5A5A5A] flex flex-col gap-4 md:gap-5">
                 <p>
-                  Our team of skilled creative designers collaborates with you to
-                  develop customised strategies that showcase your unique value,
-                  engage your audience, and drive conversions.
+                  Our team of skilled creative designers collaborates with you
+                  to develop customised strategies that showcase your unique
+                  value, engage your audience, and drive conversions.
                 </p>
                 <p>
                   We're dedicated to delivering outcomes that go beyond

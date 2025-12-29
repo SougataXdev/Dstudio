@@ -64,16 +64,18 @@ const CaseStudies = (props: Props) => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 py-8 md:py-14">
             {caseStudies.map((card) => (
               <motion.div
+
+
                 key={card.id}
                 variants={staggerItem}
-                className="flex flex-col"
+                className="flex flex-col overflow-hidden rounded-lg"
               >
                 <Image
                   width={600}
                   height={400}
                   alt={card.title}
                   src={card.imgSrc}
-                  className="w-full rounded-lg object-cover mb-4"
+                  className="w-full rounded-lg object-cover mb-4 hover:scale-103 transition-all duration-200"
                 />
                 <h3 className="text-lg sm:text-xl font-semibold mb-2">{card.title}</h3>
                 <p className="text-neutral-900 font-semibold text-xl sm:text-2xl max-w-md mb-4">

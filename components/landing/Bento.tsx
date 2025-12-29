@@ -48,7 +48,7 @@ const Bento = (props: Props) => {
               <h3 className="mt-6">Patrick Goodman</h3>
               <p className="mt-2"> CTO, Workrede</p>
             </div>
-            
+
             {/* Stats cards row */}
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-2xl bg-white p-6 flex flex-col justify-between min-h-[150px]">
@@ -68,7 +68,7 @@ const Bento = (props: Props) => {
                 </div>
               </div>
             </div>
-            
+
             <div className="rounded-2xl bg-white flex flex-col justify-between p-6">
               <div>
                 <h2 className="text-2xl sm:text-3xl">Top 1%</h2>
@@ -78,7 +78,7 @@ const Bento = (props: Props) => {
               </div>
               <p className="text-black font-medium mt-4">5.0 Rated On Clutch</p>
             </div>
-            
+
             {/* Tangible card */}
             <div className="rounded-2xl bg-white flex flex-col justify-between p-6">
               <div>
