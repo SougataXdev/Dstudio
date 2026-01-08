@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 
 import "./globals.css";
 import Loader from "@/components/Loader";
+import SmoothScrollProvider from "@/components/animations/SmoothScrollProvider";
 
 const graphik = localFont({
   src: [
@@ -43,7 +44,9 @@ export default function RootLayout({
         className={`${graphik.variable} ${ppFragment.variable} antialiased`}
       >
         <Loader />
+        <SmoothScrollProvider>
         {children}
+        </SmoothScrollProvider>
       </body>
     </html>
   );
